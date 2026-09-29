@@ -105,16 +105,3 @@ Follow these steps to run the complete distributed system locally.
    npm run dev
    ```
    The web app will be available at `http://localhost:3000`.
-
-## 5. Publishing to GitHub
-
-To push this project to your own GitHub repository, run the following commands in the root of the project:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit of distributed Event-Driven Budgeting Architecture"
-git branch -M main
-git remote add origin <YOUR_GITHUB_REPO_URL>
-git push -u origin main
-```
